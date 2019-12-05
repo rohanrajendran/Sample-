@@ -1,0 +1,121 @@
+.App {
+  height: 100vh;
+  display: flex;
+  color: orangered;
+}
+
+.App-Form {
+  width: 50%;
+  background-color: rgb(39, 69, 105);
+}
+
+.App-aside {
+  width: 50%;
+  background-color: rgb(30,60,90);
+  padding: 25px 40px;
+  overflow: auto;
+}
+
+.PageSwitcher {
+  display: flex;
+  justify-content: flex-end; 
+  margin-bottom: 10%;
+}
+.PageSwitcher_Item {
+  background-color: #4C5D72;
+  align-content: flex-end;
+  color: #9DA6B1;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: .9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.PageSwitcher_Item_Active {
+  background-color: #5ED0C0;
+  color: white;
+  text-decoration: none;
+  align-content: flex-end;
+  padding: 10px 25px;
+}
+
+.PageSwitcher_Item:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.PageSwitcher_Item:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.form-details {
+  margin-bottom: 100px;
+}
+
+.form_title {
+  color: #707C8B;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.form_title_link{
+    color: #707C8B;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.7em;
+    margin: 0 10px;
+    padding-bottom: 5px;
+}
+
+.form_title_link_active {
+  color: aquamarine;
+  border-bottom: 1px solid #199087;
+}
+
+.form-detail{
+    margin-bottom: 40px;
+}
+
+.form_label{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: .9em;
+    color: tan;
+}
+.form_input {
+  width: 85%;
+  background-color: transparent;
+  border: none;
+  color: aliceblue;
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.form_link{
+  margin: 0 5px;
+  padding-bottom: 5px;
+  color: aquamarine;
+  text-decoration: none;
+  display: inline-block;
+
+}
+.form_button{
+  display: flex;
+  background-color: #5ED0C0;
+  color: white;
+  text-decoration: none;
+  align-content: flex-end;
+  padding: 15px 70px;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+}
+

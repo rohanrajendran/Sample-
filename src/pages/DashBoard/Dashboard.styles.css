@@ -1,0 +1,20 @@
+.dashboard{
+    height: 100vh;
+    display: flex;
+}
+.invoice-form {
+    width: 85%;
+    background-color: white;
+    height: 100%
+  }
+.form-aside {
+    width: 15%;
+    background-color:#20337C;
+    align-content: center;
+    
+}
+.header{
+    font-weight: bolder;
+    font-size: 20;
+    text-align: right;
+}

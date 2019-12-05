@@ -1,0 +1,91 @@
+.mainForm{
+    height: 100vh;
+    display: flex;
+}
+
+
+.formAside {
+    width: 40%;
+    background-color: white;
+    height: 100%
+  }
+.appForm {
+    width: 60%;
+    background-color:#20337C;
+    align-content: center;
+    
+}
+
+.text-primary{
+    height: 30px;
+    opacity: 1;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+    margin-top: 25%;
+    margin-left: 25%;
+    align-content: center;
+  }
+
+.formIcon{
+    width: 369px;
+    height: 40px;
+    opacity: 1;
+}
+
+.h1{
+    margin-bottom: 40px; 
+
+}
+
+input{
+    width: 369px;
+    height: 40px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;   
+}
+p{
+    font-size: 15px;
+    font-weight: regular;
+    display: block;
+    text-align: center;
+}
+
+.formSubmit{
+    width: 369px;
+    height: 40px;
+    opacity: 1;
+    color:white;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #5A9DED;  
+    padding-bottom: 10px;
+    margin-top: 30px; 
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+}
+
+.link{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 'Regular';
+    text-Decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.line{
+    color: #FFF;
+    font-size: 1 px;
+    width: 100%;  
+}
+
+
+.emptySpace{
+    margin-bottom: 25px;
+  }
+
+
+  
+      

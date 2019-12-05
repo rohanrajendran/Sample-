@@ -1,0 +1,98 @@
+.mainForm{
+  height: 100%;
+  display: flex;
+}
+
+
+.formAside {
+  width: 50%;
+  background-color: white;
+  height: auto;
+}
+.appForm {
+  width: 50%;
+  height:auto; 
+  background-color:#20337C;
+  align-content: right;
+  
+}
+
+.text-prim{
+  height: auto;
+  opacity: 1;
+  font-size: 30px;
+  color: rgba(255,255,255,1);
+  padding-top: 0%;
+  margin-left: 0%;
+  align-content: center;
+}
+
+.formIcon{
+  width: 369px;
+  height: 40px;
+  opacity: 1;
+}
+
+
+a{
+  text-decoration: none;
+  color:white
+}
+
+input{
+  width: 369px;
+  height: 40px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  border-radius: 15px;    
+}
+p{
+  font-size: 15px;
+  font-weight: regular;
+  display: block;
+  text-align: center;
+}
+
+text{
+  align-content: flex-start;
+  display: inline-block;
+
+}
+.h1{
+
+  opacity: 1;
+  font-size: 30px;
+  font-weight: bolder;
+  width: 100%;
+
+}
+.h2{
+  opacity: 1;
+  font-size: 20px;
+  width: 100%;
+}
+.line{
+  width: 350px;
+}
+.formSubmit{
+  width: 369px;
+  height: 40px;
+  opacity: 1;
+  background-color: #5A9DED;  
+  padding-bottom: 10px;
+  margin-top: 30px; 
+  border-radius: 15px;
+}
+
+.link{
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 'Regular';
+  text-Decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.emptySpace{
+  margin-bottom: 25px;
+}

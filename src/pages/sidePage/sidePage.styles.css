@@ -1,0 +1,18 @@
+.centered{
+    margin-top: 25%
+}
+
+.col-1{
+    padding-top: 15px;
+    margin-top:15px;
+}
+
+.empty-space{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box{
+    justify-content: right;
+    align-items: right;
+}
