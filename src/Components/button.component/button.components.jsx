@@ -3,9 +3,9 @@ import React from 'react';
 // import {Link} from 'react-router-dom';
 import {Button } from "evergreen-ui";
 
-const CustomButton = ({children, ...otherProps}) => (
+const CustomButton = ({children, ...otherCustomProps}) => (
     <Button  
-    appearance="primary" marginLeft={60} marginTop={20} width = {100} onClick= "#">
+    appearance="primary" marginRight={20} onClick= "#" >
     {children}
     </Button>
 )

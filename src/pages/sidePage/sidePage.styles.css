@@ -1,5 +1,5 @@
 .centered{
-    margin-top: 25%
+    margin-top: 150px;
 }
 
 .col-1{
@@ -7,12 +7,23 @@
     margin-top:15px;
 }
 
+.margin{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 .empty-space{
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
+.third-col{
+    margin-top: 20%;
+}
 .box{
     justify-content: right;
     align-items: right;
+}
+.div{
+    display: flex;
+    flex-direction: column;
 }

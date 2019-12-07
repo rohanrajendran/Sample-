@@ -5,16 +5,41 @@
 .invoice-form {
     width: 85%;
     background-color: white;
-    height: 100%
   }
 .form-aside {
     width: 15%;
     background-color:#20337C;
     align-content: center;
-    
+    height:200%
 }
 .header{
     font-weight: bolder;
     font-size: 20;
     text-align: right;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+.box{
+    margin-left: 10px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color:black;
+}
+.card{
+    height: 50;
+    width: 150;
+    display:"flex";
+    align-items:"center";
+    justify-content:"center";
+    margin-left: 10;
+    margin-bottom: 10
+
 }
