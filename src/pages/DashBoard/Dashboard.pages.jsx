@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 import './Dashboard.styles.css';
-import { Avatar, TextInput, Heading, Textarea, Table,Pane,Strong, Text, Button, Paragraph, Icon} from 'evergreen-ui';
+import { Avatar, TextInput, Heading, Textarea, Table,Strong, Text, Button, Paragraph, Icon} from 'evergreen-ui';
 import 'react-bulma-components/dist/react-bulma-components.min.css';
 import SidePage from '../sidePage/SidePage';
 import CustomTable from '../../Components/Table.component/table.component'
@@ -82,6 +82,14 @@ class Invoice extends Component {
                         <br/> 
                         <p>Due Date
                         <CustomInput/>
+
+
+
+
+
+
+
+                        
                         </p>  
                         </div>
                     </div>
